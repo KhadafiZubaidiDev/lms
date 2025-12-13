@@ -6,6 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 
 class UserTableSeeder extends Seeder
@@ -21,7 +22,7 @@ class UserTableSeeder extends Seeder
             [
                 'name' => 'Admin',
                 'username' => 'admin',
-                'email' => '3VbBc@example.com',
+                'email' => 'admin@gmail.com',
                 'password' => Hash::make('password'),
             ]
         ]);
