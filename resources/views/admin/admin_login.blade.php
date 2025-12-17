@@ -10,7 +10,7 @@
 	<!--plugins-->
 	<link href="{{ asset('backend/assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
 	<link href="{{ asset('backend/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet" />
-	<link href="{{ asset('backend/') }}assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+	<link href="{{ asset('backend/assets/plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet" />
 	<!-- loader-->
 	<link href="{{ asset('backend/') }}assets/css/pace.min.css" rel="stylesheet" />
 	<script src="{{ asset('backend/') }}assets/js/pace.min.js"></script>
