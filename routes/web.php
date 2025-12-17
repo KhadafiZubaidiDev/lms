@@ -40,7 +40,7 @@ Route::middleware(['auth','roles:admin'])->group(function () {
 });
 // End Admin Group Middleware
 
-Route::get('/admin/dashboard', [AdminController::class, 'AdminDashboard'])->name('admin.dashboard');
+Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login');
 
 // Instructor Group Middleware
 Route::middleware(['auth','roles:instructor'])->group(function () {
